@@ -9,7 +9,7 @@ const path = require("path")  //
 
 app.use(express.json())
 app.use(morgan('dev'))
-app.use(express.static(path.join(__dirname, "client", "dist")))  //
+app.use(express.static(path.join(__dirname, "Client", "dist")))  //
 
 async function connectToDB() {
     try {
@@ -36,7 +36,7 @@ app.use((err, req, res, next) => {
 })
 
 app.get("*", (req, res) => {
-    res.sendFile(path.join(__dirname, "client", "dist", "index.html")); });  //
+    res.sendFile(path.join(__dirname, "Client", "dist", "index.html")); });  //
 
 app.listen(7007, () => {
     console.log("Server is running on port 7007")
