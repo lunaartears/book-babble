@@ -1,0 +1,71 @@
+* {
+    background-color: rgb(22, 112, 116);
+    font-family: monospace;
+}
+.auth-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.img {
+    width: 200px;
+    height: 250px;
+}
+.nav {
+    display: flex;
+    justify-content: space-around;
+}
+.book-list {
+    margin: 60px;
+}
+.commenting-as-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.all-books-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hello-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.add-book-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.profile-book-list {
+    margin: 60px;
+}
+.book-form-input {
+    padding: 8px;
+    margin: 5px;
+    border-radius: 10px;
+}
+.comment-input {
+    padding: 8px;
+    margin: 7px;
+    border-radius: 10px;
+}
+.submit-comment-btn {
+    border-radius: 5px;
+}
+.like-btn {
+    border-radius: 5px;
+    margin-right: 5px;
+}
+.dislike-btn {
+    border-radius: 5px;
+}
+.delete-book-btn {
+    border-radius: 5px;
+    margin-right: 5px;
+}
+.edit-book-btn {
+    border-radius: 5px;
+}
